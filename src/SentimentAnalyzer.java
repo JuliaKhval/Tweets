@@ -7,6 +7,6 @@ public class SentimentAnalyzer {
     void TweetSentiment(List<Tweet> tweets){//сентимент твита
 
     }
-    void StateSentiment(Li)//сентимент штата
+    void StateSentiment()   {}//сентимент штата
 }
 
