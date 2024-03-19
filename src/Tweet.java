@@ -1,12 +1,14 @@
 public class Tweet {
-    private double latitude;
-    private double longitude;
+    private String latitude;
+    private String longitude;
     private String text;
 
-    private double sentiment;
+    public double sentiment;
 
     // Конструктор
-    public Tweet(double latitude, double longitude, String text, double sentiment) {
+    public Tweet() {}
+
+    public Tweet(String latitude, String longitude, String text, double sentiment) {
         this.latitude = latitude;
         this.longitude = longitude;
 
@@ -15,19 +17,19 @@ public class Tweet {
     }
 
     // Геттеры и сеттеры
-    public double getLatitude() {
+    public String getLatitude() {
         return latitude;
     }
 
-    public void setLatitude(double latitude) {
+    public void setLatitude(String latitude) {
         this.latitude = latitude;
     }
 
-    public double getLongitude() {
+    public String getLongitude() {
         return longitude;
     }
 
-    public void setLongitude(double longitude) {
+    public void setLongitude(String longitude) {
         this.longitude = longitude;
     }
 
